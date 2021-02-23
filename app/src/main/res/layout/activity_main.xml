@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sign"
+                android:text="enter email id"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/email"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:text="enter name"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/name"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:text="enter age"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/age"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/age"
+                android:text="gender"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/gender"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gender"
+                android:text="enter location"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/location"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location"
+                android:text="enter password"
+                android:textSize="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:padding="16dp"
+                android:id="@+id/password"/>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="25dp"
+                android:text="log in"
+                android:textSize="32dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
